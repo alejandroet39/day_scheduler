@@ -35,11 +35,11 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(158, 82, 82);
 }
 
 .hour {
-  background-color: #491313;
+  background-color: #bb7b7b;
   color: #000000;
   border-top: 1px dashed #000000;
 }

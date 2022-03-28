@@ -28,17 +28,24 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- Timeblocks go here -->
     <div class="container">
-      <!-- Timeblocks go here -->
-      <div class="time-block">9am</div>
-      <div class="time-block">10am</div>
-      <div class="time-block">11am</div>
-      <div class="time-block">12pm</div>
-      <div class="time-block">1pm</div>
-      <div class="time-block">2pm</div>
-      <div class="time-block">3pm</div>
-      <div class="time-block">4pm</div>
-      <div class="time-block">5pm</div>
+      <div class="row time-block">
+        <div class="col hour">9am</div>
+
+        <textarea class="col-8 description">2 of 3 (wider)</textarea>
+        <div class="col saveBtn">
+          <i class="fas fa-save"></i>
+        </div>
+      </div>
+
+      <div class="row time-block">
+        <div class="col hour">10am</div>
+        <textarea class="col-8 description">2 of 3 (wider)</textarea>
+        <div class="col saveBtn">
+          <i class="fas fa-save"></i>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
